@@ -1,2 +1,5 @@
 # Ticket-Manager
-This is a sample Java application for managing movie tickets
+
+## Introduction
+
+This is a sample project with basic java with covers most of the OOP concepts.
