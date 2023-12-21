@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         // ticket booking
+        Screen audi1 = new Screen();
 
-//        TicketCounter ticketCounter = new TicketCounter();
-//        ticketCounter.anyShowsAvailable();
+        TicketCounter ticketCounter = new TicketCounter(audi1);
+        ticketCounter.anyShowsAvailable();
 //
 //
 //        User sanjay = new User("Sanjay M Santhosh", "Adult");
