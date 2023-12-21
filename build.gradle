@@ -4,3 +4,16 @@
  * This is a general purpose Gradle build.
  * To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.4/samples
  */
+plugins {
+    id 'java'
+    id 'application'
+}
+
+
+// group - google.com -> com.google
+// artifact - project
+// version - major.minor.patch
+
+// group.artifact.version
+// src/main/java/group/artifact -> group.artifact -> com.sanjay + TicketMaster -> com.sanjay.TicketMaster
+// src/test/java/group/artifact -> group.artifact
